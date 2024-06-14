@@ -21,4 +21,13 @@ public class WorkWithElements {
         waiters.waitForVisibility(locator);
         return driver.findElement(locator).getText();
     }
+    public void sendKeys(By locator, String text) {
+        waiters.waitForVisibility(locator);
+        driver.findElement(locator).sendKeys(text);
+    }
+    public void clear (By locator) {
+        waiters.waitForVisibility(locator);
+        driver.findElement(locator).clear();
+    }
+
 }
