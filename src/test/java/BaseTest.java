@@ -6,6 +6,7 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Listeners;
 import pages.BasePage;
+import pages.Catalogue;
 import pages.MainPage;
 import utils.MyAllureTestListeners;
 
@@ -16,6 +17,7 @@ public class BaseTest {
     protected WorkWithElements workWithElements = new WorkWithElements(driver, waiters);
     protected BasePage basePage = new BasePage(driver);
     protected MainPage mainPage = new MainPage(driver);
+    protected Catalogue catalogue= new Catalogue(driver);
 
     @BeforeSuite
     public void init(){

@@ -60,7 +60,7 @@ public class MainPage extends BasePage {
     public String getNameOfPageFromAdv() {
         workWithElements.returnTextFromElement(Locators.nameOfPageFromAdv);
         String pageName = workWithElements.returnTextFromElement(Locators.nameOfPageFromAdv);
-        System.out.println("текст зі сторінки: "+ pageName);
+        System.out.println("текст зі сторінки: " + pageName);
         String expectedPageName = "Патчі 1+1";
         if (pageName.equals(expectedPageName)) {
             System.out.println("Тест пройдено!");
@@ -93,7 +93,7 @@ public class MainPage extends BasePage {
     }
 
     public String getResultText() {
-        String result =  workWithElements.returnTextFromElement(Locators.result);
+        String result = workWithElements.returnTextFromElement(Locators.result);
         System.out.println(result);
         return result;
     }
@@ -120,13 +120,13 @@ public class MainPage extends BasePage {
         return this;
     }
 
-   public MainPage moveToAnotherCategory() {
+    public MainPage moveToAnotherCategory() {
         Actions actions = new Actions(driver);
         actions.moveToElement(driver.findElement(Locators.selectFace)).perform();
         actions.moveToElement(driver.findElement(Locators.cleanser)).perform();
         workWithElements.click(Locators.enzymePowder);
         String result = workWithElements.returnTextFromElement(Locators.resultOfSelectedPageForEnzyme);
-       System.out.println(result);
+        System.out.println(result);
         return this;
     }
 }
