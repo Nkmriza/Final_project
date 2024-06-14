@@ -24,7 +24,7 @@ public class MainPageTest extends BaseTest {
     }
 
     @Test
-    public void PartnershipFieldTest() throws InterruptedException{
+    public void PartnershipFieldTest() throws InterruptedException {
         MainPage mainPage = new MainPage(driver);
         mainPage.openMainPage()
                 .clickOnPartnership();
@@ -34,7 +34,7 @@ public class MainPageTest extends BaseTest {
     }
 
     @Test
-    public void AdditionalSearchFieldTest()throws InterruptedException{
+    public void AdditionalSearchFieldTest() throws InterruptedException {
         MainPage mainPage = new MainPage(driver);
         String request = "qwe";
         String request2 = "face";
@@ -48,12 +48,13 @@ public class MainPageTest extends BaseTest {
     }
 
     @Test
-    public void CategoriesTest ()throws InterruptedException{
+    public void CategoriesTest() throws InterruptedException {
         MainPage mainPage = new MainPage(driver);
         mainPage.openMainPage()
                 .moveToSelectFace()
                 .clickOnSunCream()
                 .moveToSelectFace()
                 .moveToAnotherCategory();
-        ;}
+        ;
+    }
 }
