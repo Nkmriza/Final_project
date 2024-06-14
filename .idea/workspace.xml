@@ -79,24 +79,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CatalogueTest">
+  <component name="RunManager" selected="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml">
     <configuration name="CatalogueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatalogueTest.discountTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
-      <option name="METHOD_NAME" value="discountTest" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -139,13 +127,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="/Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_project" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testNG.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" />
         <item itemvalue="TestNG.CatalogueTest" />
         <item itemvalue="TestNG.CatalogueTest.sortingTest" />
         <item itemvalue="TestNG.CatalogueTest.order" />
         <item itemvalue="TestNG.CatalogueTest.filterResultTest" />
-        <item itemvalue="TestNG.CatalogueTest.discountTest" />
       </list>
     </recent_temporary>
   </component>

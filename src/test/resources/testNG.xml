@@ -1,9 +1,13 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="AllTests Suite">
-    <test name="AllTests">
+    <test name="MainPageTest">
         <classes>
             <class name="MainPageTest"/>
         </classes>
     </test>
+    <test name="CatalogueTest">
+        <classes>
+            <class name="CatalogueTest"/>
+        </classes>
+    </test>
 </suite>
-
