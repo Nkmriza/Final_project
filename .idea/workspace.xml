@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="51a725c1-db72-4c99-b439-8e921e92886a" name="Changes" comment="MAIN">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MainPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Urls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Urls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
+    <list default="true" id="51a725c1-db72-4c99-b439-8e921e92886a" name="Changes" comment="upd">
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Catalogue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CatalogueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatalogueTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +74,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CatalogueTest.discountTest">
+  <component name="RunManager" selected="TestNG.CatalogueTest.filterResultTest">
     <configuration name="CatalogueTest.closeAllFilters" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
@@ -101,11 +99,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CatalogueTest.filterResultTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
+      <option name="METHOD_NAME" value="filterResultTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -136,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CatalogueTest.filterResultTest" />
         <item itemvalue="TestNG.CatalogueTest.discountTest" />
         <item itemvalue="TestNG.CatalogueTest.closeAllFilters" />
         <item itemvalue="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" />
         <item itemvalue="TestNG.MainPageTest.CategoriesTest" />
-        <item itemvalue="TestNG.MainPageTest" />
       </list>
     </recent_temporary>
   </component>
@@ -193,7 +192,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718374574725</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="upd">
+      <option name="closed" value="true" />
+      <created>1718386583597</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1718386583597</updated>
+    </task>
+    <task id="LOCAL-00007" summary="upd">
+      <option name="closed" value="true" />
+      <created>1718386628808</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1718386628808</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -211,6 +226,19 @@
     <MESSAGE value="p" />
     <MESSAGE value="сh" />
     <MESSAGE value="MAIN" />
-    <option name="LAST_COMMIT_MESSAGE" value="MAIN" />
+    <MESSAGE value="upd" />
+    <option name="LAST_COMMIT_MESSAGE" value="upd" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/src/main/java/pages/Catalogue.java</url>
+          <line>27</line>
+          <properties field="amountOfDiscount" class="pages.Catalogue.Locators" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -21,4 +21,16 @@ public class CatalogueTest extends BaseTest {
                 .discountInfo();
     }
 
+    @Test
+    public void filterResultTest()throws InterruptedException {
+        Catalogue catalogue = new Catalogue(driver);
+        catalogue.openCataloguePage()
+                .filter1()
+                .filter2()
+                .filter3()
+                .filter4()
+                .filterResult()
+                .checkResults();
+    }
+
 }
