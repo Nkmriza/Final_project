@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a725c1-db72-4c99-b439-8e921e92886a" name="Changes" comment="upd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/Catalogue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/Catalogue.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CatalogueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatalogueTest.java" afterDir="false" />
     </list>
@@ -50,6 +51,10 @@
     "TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml.executor": "Run",
     "TestNG.CatalogueTest.closeAllFilters.executor": "Run",
     "TestNG.CatalogueTest.discountTest.executor": "Run",
+    "TestNG.CatalogueTest.executor": "Run",
+    "TestNG.CatalogueTest.filterResultTest.executor": "Run",
+    "TestNG.CatalogueTest.order.executor": "Run",
+    "TestNG.CatalogueTest.sortingTest.executor": "Run",
     "TestNG.MainPageTest.AdditionalSearchFieldTest.executor": "Run",
     "TestNG.MainPageTest.CategoriesTest.executor": "Run",
     "TestNG.MainPageTest.PartnershipFieldTest.executor": "Run",
@@ -74,13 +79,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.CatalogueTest.filterResultTest">
-    <configuration name="CatalogueTest.closeAllFilters" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.CatalogueTest">
+    <configuration name="CatalogueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
-      <option name="METHOD_NAME" value="closeAllFilters" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,11 +115,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainPageTest.CategoriesTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CatalogueTest.order" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="MainPageTest" />
-      <option name="METHOD_NAME" value="CategoriesTest" />
+      <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
+      <option name="METHOD_NAME" value="order" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -123,10 +127,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="CatalogueTest.sortingTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testNG.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
+      <option name="METHOD_NAME" value="sortingTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -135,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.CatalogueTest" />
+        <item itemvalue="TestNG.CatalogueTest.sortingTest" />
+        <item itemvalue="TestNG.CatalogueTest.order" />
         <item itemvalue="TestNG.CatalogueTest.filterResultTest" />
         <item itemvalue="TestNG.CatalogueTest.discountTest" />
-        <item itemvalue="TestNG.CatalogueTest.closeAllFilters" />
-        <item itemvalue="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" />
-        <item itemvalue="TestNG.MainPageTest.CategoriesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +214,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718386628808</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="upd">
+      <option name="closed" value="true" />
+      <created>1718388794625</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1718388794625</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,17 +242,5 @@
     <MESSAGE value="MAIN" />
     <MESSAGE value="upd" />
     <option name="LAST_COMMIT_MESSAGE" value="upd" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-field">
-          <url>file://$PROJECT_DIR$/src/main/java/pages/Catalogue.java</url>
-          <line>27</line>
-          <properties field="amountOfDiscount" class="pages.Catalogue.Locators" />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
