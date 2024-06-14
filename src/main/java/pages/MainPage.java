@@ -129,11 +129,4 @@ public class MainPage extends BasePage {
        System.out.println(result);
         return this;
     }
-
-
-    /*  actions.moveToElement(cleanser).perform();
-        WebElement enzymePowder = driver.findElement(By.id("category-111"));
-        enzymePowder.click();
-        WebElement resultOfSelectedPageForEnzyme = driver.findElement(By.id("category_desc"));
-        System.out.println(resultOfSelectedPageForEnzyme.getText());*/
 }
