@@ -53,4 +53,16 @@ public class PersonalAccountTest extends BaseTest {
                 .returnToCab()
                 .exit();
     }
+
+    @Test
+    public void languageCheck (){
+        PersonalAccount personalAccount = new PersonalAccount(driver);
+        personalAccount.logInPage()
+                .writeEmail("lizasamsung98@gmail.com")
+                .writePassword("qwerty")
+                .submit()
+                .clickOnHistory()
+                .checkLanguageForHistory()
+                .exit();
+    }
 }

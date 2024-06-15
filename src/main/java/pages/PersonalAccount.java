@@ -32,7 +32,27 @@ public class PersonalAccount extends BasePage {
         static final By saveChanges = By.xpath("/html/body/section/div/section/div/div[3]/div[3]/div[1]/div/div/div/button");
         static final By backByNameOnTheTop = By.xpath("//*[@id='_desktop_user_info']/div/div/a[1]");
 
+        static final By historyLanguageCheck = By.xpath("/html/body/main/section/div[1]/div/div/section/section/div/div/a[6]/span");
+        static final By historyWindow = By.xpath("//*[@id='main']/header/h1");
 
+
+    }
+
+    public PersonalAccount clickOnHistory() {
+        workWithElements.click(Locators.historyLanguageCheck);
+        return this;
+    }
+
+    public PersonalAccount checkLanguageForHistory() {
+        String actualResult = workWithElements.returnTextFromElement(Locators.historyWindow);
+        System.out.println(actualResult);
+        String expectedResult = "ІСТОРІЯ ШВИДКИХ ЗААМОВЛЕНЬ";
+        if (actualResult.equals(expectedResult)) {
+            System.out.println(actualResult);
+        } else {
+            System.out.println("Результат назви сторінки (українська) не відповідає " + expectedResult);
+        }
+        return this;
     }
 
     public PersonalAccount logInPage() {

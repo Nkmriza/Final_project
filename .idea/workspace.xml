@@ -63,6 +63,7 @@
     "TestNG.MainPageTest.testSearchItem.executor": "Run",
     "TestNG.PersonalAccountTest.changeNameTest.executor": "Run",
     "TestNG.PersonalAccountTest.createAccountTest.executor": "Run",
+    "TestNG.PersonalAccountTest.languageCheck.executor": "Run",
     "TestNG.PersonalAccountTest.logIn.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
@@ -82,18 +83,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PersonalAccountTest.changeNameTest">
-    <configuration name="CatalogueTest" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.PersonalAccountTest.languageCheck">
     <configuration name="PersonalAccountTest.changeNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
@@ -111,6 +101,18 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonalAccountTest" />
       <option name="METHOD_NAME" value="createAccountTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonalAccountTest.languageCheck" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonalAccountTest" />
+      <option name="METHOD_NAME" value="languageCheck" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -142,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PersonalAccountTest.languageCheck" />
         <item itemvalue="TestNG.PersonalAccountTest.changeNameTest" />
         <item itemvalue="TestNG.PersonalAccountTest.logIn" />
         <item itemvalue="TestNG.PersonalAccountTest.createAccountTest" />
         <item itemvalue="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" />
-        <item itemvalue="TestNG.CatalogueTest" />
       </list>
     </recent_temporary>
   </component>
@@ -255,7 +257,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718441797400</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="upd">
+      <option name="closed" value="true" />
+      <created>1718451290636</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1718451290636</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
