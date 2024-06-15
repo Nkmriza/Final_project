@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonalAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PersonalAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonalAccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/testNG.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/testNG.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +64,7 @@
     "TestNG.MainPageTest.testSearchItem.executor": "Run",
     "TestNG.PersonalAccountTest.changeNameTest.executor": "Run",
     "TestNG.PersonalAccountTest.createAccountTest.executor": "Run",
+    "TestNG.PersonalAccountTest.forgotPasswordTest.executor": "Run",
     "TestNG.PersonalAccountTest.languageCheck.executor": "Run",
     "TestNG.PersonalAccountTest.logIn.executor": "Run",
     "git-widget-placeholder": "main",
@@ -83,7 +85,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PersonalAccountTest.languageCheck">
+  <component name="RunManager" selected="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml">
     <configuration name="PersonalAccountTest.changeNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
@@ -96,11 +98,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonalAccountTest.createAccountTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonalAccountTest.forgotPasswordTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="PersonalAccountTest" />
-      <option name="METHOD_NAME" value="createAccountTest" />
+      <option name="METHOD_NAME" value="forgotPasswordTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -144,11 +146,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" />
+        <item itemvalue="TestNG.PersonalAccountTest.forgotPasswordTest" />
         <item itemvalue="TestNG.PersonalAccountTest.languageCheck" />
         <item itemvalue="TestNG.PersonalAccountTest.changeNameTest" />
         <item itemvalue="TestNG.PersonalAccountTest.logIn" />
-        <item itemvalue="TestNG.PersonalAccountTest.createAccountTest" />
-        <item itemvalue="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -265,7 +267,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718451290636</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="upd">
+      <option name="closed" value="true" />
+      <created>1718454753991</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1718454753991</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

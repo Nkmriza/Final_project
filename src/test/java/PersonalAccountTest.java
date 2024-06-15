@@ -55,7 +55,7 @@ public class PersonalAccountTest extends BaseTest {
     }
 
     @Test
-    public void languageCheck (){
+    public void languageTest() {
         PersonalAccount personalAccount = new PersonalAccount(driver);
         personalAccount.logInPage()
                 .writeEmail("lizasamsung98@gmail.com")
@@ -64,5 +64,15 @@ public class PersonalAccountTest extends BaseTest {
                 .clickOnHistory()
                 .checkLanguageForHistory()
                 .exit();
+    }
+
+    @Test
+    public void forgotPasswordTest() {
+        PersonalAccount personalAccount = new PersonalAccount(driver);
+        personalAccount.logInPage()
+                .clickOnFPW()
+                .mailInput("mailmail@gmail.com")
+                .sendMail()
+                .printInfoAboutMessageForFPW();
     }
 }
