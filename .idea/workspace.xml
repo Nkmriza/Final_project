@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a725c1-db72-4c99-b439-8e921e92886a" name="Changes" comment="upd">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonalAccount.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/PersonalAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonalAccountTest.java" afterDir="false" />
     </list>
@@ -60,6 +61,7 @@
     "TestNG.MainPageTest.SlideTest.executor": "Run",
     "TestNG.MainPageTest.executor": "Run",
     "TestNG.MainPageTest.testSearchItem.executor": "Run",
+    "TestNG.PersonalAccountTest.changeNameTest.executor": "Run",
     "TestNG.PersonalAccountTest.createAccountTest.executor": "Run",
     "TestNG.PersonalAccountTest.logIn.executor": "Run",
     "git-widget-placeholder": "main",
@@ -80,7 +82,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PersonalAccountTest.logIn">
+  <component name="RunManager" selected="TestNG.PersonalAccountTest.changeNameTest">
     <configuration name="CatalogueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
@@ -92,11 +94,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CatalogueTest.sortingTest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PersonalAccountTest.changeNameTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
-      <option name="METHOD_NAME" value="sortingTest" />
+      <option name="MAIN_CLASS_NAME" value="PersonalAccountTest" />
+      <option name="METHOD_NAME" value="changeNameTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -140,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PersonalAccountTest.changeNameTest" />
         <item itemvalue="TestNG.PersonalAccountTest.logIn" />
         <item itemvalue="TestNG.PersonalAccountTest.createAccountTest" />
         <item itemvalue="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" />
         <item itemvalue="TestNG.CatalogueTest" />
-        <item itemvalue="TestNG.CatalogueTest.sortingTest" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718439159172</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="upd">
+      <option name="closed" value="true" />
+      <created>1718441797400</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1718441797400</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

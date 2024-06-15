@@ -24,6 +24,15 @@ public class PersonalAccount extends BasePage {
         static final By submitLogIn = By.id("submit-login");
         static final By errorForLogIn = By.xpath("//*[@id='content']/section/div/ul/li");
         static final By showPassword = By.xpath("//*[@id='login-form']/section/div[2]/div[1]/div/span/button");
+        static final By exit = By.xpath("//*[@id='_desktop_user_info']/div/div/a[2]");
+
+        static final By info = By.xpath("//*[@id='identity-link']/span");
+        static final By changeName = By.id("customer_firstname");
+        static final By changeSurname = By.id("customer_lastname");
+        static final By saveChanges = By.xpath("/html/body/section/div/section/div/div[3]/div[3]/div[1]/div/div/div/button");
+        static final By backByNameOnTheTop = By.xpath("//*[@id='_desktop_user_info']/div/div/a[1]");
+
+
     }
 
     public PersonalAccount logInPage() {
@@ -78,13 +87,13 @@ public class PersonalAccount extends BasePage {
         return this;
     }
 
-    public PersonalAccount writeEmail(String email){
+    public PersonalAccount writeEmail(String email) {
         workWithElements.sendKeys(Locators.emailField, email);
         return this;
 
     }
 
-    public PersonalAccount writePassword (String password){
+    public PersonalAccount writePassword(String password) {
         workWithElements.sendKeys(Locators.passwordField, password);
         return this;
     }
@@ -93,13 +102,57 @@ public class PersonalAccount extends BasePage {
         workWithElements.click(Locators.submitLogIn);
         return this;
     }
+
     public PersonalAccount errorLogIn() {
         String actualResult = workWithElements.returnTextFromElement(Locators.errorForLogIn);
         System.out.println(actualResult);
-        return this;}
+        return this;
+    }
 
-    public PersonalAccount showPassword(){
+    public PersonalAccount showPassword() {
         workWithElements.click(Locators.showPassword);
         return this;
     }
+
+    public PersonalAccount exit() {
+        workWithElements.click(Locators.exit);
+        return this;
+    }
+
+    public PersonalAccount infoAboutCustomer() {
+        workWithElements.click(Locators.info);
+        return this;
+    }
+
+    public PersonalAccount changeNameClear() {
+        workWithElements.clear(Locators.changeName);
+        return this;
+    }
+
+    public PersonalAccount changeName(String newName) {
+        workWithElements.sendKeys(Locators.changeName, newName);
+        return this;
+    }
+
+    public PersonalAccount changeSurnameCLear() {
+        workWithElements.clear(Locators.changeSurname);
+
+        return this;
+    }
+
+    public PersonalAccount changeSurname(String newSurname) {
+        workWithElements.sendKeys(Locators.changeSurname, newSurname);
+        return this;
+    }
+
+    public PersonalAccount saveChanges() {
+        workWithElements.click(Locators.saveChanges);
+        return this;
+    }
+
+    public PersonalAccount returnToCab() {
+        workWithElements.click(Locators.backByNameOnTheTop);
+        return this;
+    }
+
 }
