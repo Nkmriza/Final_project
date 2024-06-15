@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="51a725c1-db72-4c99-b439-8e921e92886a" name="Changes" comment="upd">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/utils/Urls.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/utils/Urls.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CatalogueTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CatalogueTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/PersonalAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/PersonalAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PersonalAccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PersonalAccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +61,7 @@
     "TestNG.MainPageTest.executor": "Run",
     "TestNG.MainPageTest.testSearchItem.executor": "Run",
     "TestNG.PersonalAccountTest.createAccountTest.executor": "Run",
+    "TestNG.PersonalAccountTest.logIn.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/user/IdeaProjects/Final_project/src/main/java",
@@ -81,24 +80,12 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PersonalAccountTest.createAccountTest">
+  <component name="RunManager" selected="TestNG.PersonalAccountTest.logIn">
     <configuration name="CatalogueTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CatalogueTest.order" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Final_project" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CatalogueTest" />
-      <option name="METHOD_NAME" value="order" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -129,6 +116,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonalAccountTest.logIn" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Final_project" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="PersonalAccountTest" />
+      <option name="METHOD_NAME" value="logIn" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="/Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Final_project" />
       <option name="SUITE_NAME" value="$PROJECT_DIR$/src/test/resources/testNG.xml" />
@@ -141,11 +140,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.PersonalAccountTest.logIn" />
         <item itemvalue="TestNG.PersonalAccountTest.createAccountTest" />
         <item itemvalue="TestNG./Users/user/IdeaProjects/Final_project/src/test/resources/testNG.xml" />
         <item itemvalue="TestNG.CatalogueTest" />
         <item itemvalue="TestNG.CatalogueTest.sortingTest" />
-        <item itemvalue="TestNG.CatalogueTest.order" />
       </list>
     </recent_temporary>
   </component>
@@ -238,7 +237,15 @@
       <option name="project" value="LOCAL" />
       <updated>1718394897086</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="upd">
+      <option name="closed" value="true" />
+      <created>1718439159172</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1718439159172</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

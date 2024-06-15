@@ -18,6 +18,12 @@ public class PersonalAccount extends BasePage {
         static final By repeatPassword = By.id("customer_conf_passwd");
         static final By saveButton = By.id("btn_save_customer");
         static final By errorMessage = By.xpath("//*[@id='field_customer_conf_passwd']/span");
+
+        static final By emailField = By.xpath("//*[@id='login-form']/section/div[1]/div[1]/input");
+        static final By passwordField = By.xpath("//*[@id='login-form']/section/div[2]/div[1]/div/input");
+        static final By submitLogIn = By.id("submit-login");
+        static final By errorForLogIn = By.xpath("//*[@id='content']/section/div/ul/li");
+        static final By showPassword = By.xpath("//*[@id='login-form']/section/div[2]/div[1]/div/span/button");
     }
 
     public PersonalAccount logInPage() {
@@ -72,4 +78,28 @@ public class PersonalAccount extends BasePage {
         return this;
     }
 
+    public PersonalAccount writeEmail(String email){
+        workWithElements.sendKeys(Locators.emailField, email);
+        return this;
+
+    }
+
+    public PersonalAccount writePassword (String password){
+        workWithElements.sendKeys(Locators.passwordField, password);
+        return this;
+    }
+
+    public PersonalAccount submit() {
+        workWithElements.click(Locators.submitLogIn);
+        return this;
+    }
+    public PersonalAccount errorLogIn() {
+        String actualResult = workWithElements.returnTextFromElement(Locators.errorForLogIn);
+        System.out.println(actualResult);
+        return this;}
+
+    public PersonalAccount showPassword(){
+        workWithElements.click(Locators.showPassword);
+        return this;
+    }
 }
