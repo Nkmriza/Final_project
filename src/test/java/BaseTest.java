@@ -8,6 +8,7 @@ import org.testng.annotations.Listeners;
 import pages.BasePage;
 import pages.Catalogue;
 import pages.MainPage;
+import pages.PersonalAccount;
 import utils.MyAllureTestListeners;
 
 @Listeners(MyAllureTestListeners.class)
@@ -18,6 +19,7 @@ public class BaseTest {
     protected BasePage basePage = new BasePage(driver);
     protected MainPage mainPage = new MainPage(driver);
     protected Catalogue catalogue= new Catalogue(driver);
+    protected PersonalAccount personalAccount = new PersonalAccount(driver);
 
     @BeforeSuite
     public void init(){

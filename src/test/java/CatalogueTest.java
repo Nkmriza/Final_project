@@ -1,6 +1,5 @@
 import org.testng.annotations.Test;
 import pages.Catalogue;
-import pages.MainPage;
 
 public class CatalogueTest extends BaseTest {
     @Test
